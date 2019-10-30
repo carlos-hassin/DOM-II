@@ -65,5 +65,5 @@ header.addEventListener("click", () =>{
 
 navLink[3].addEventListener('click', (event) => {
   event.stopPropagation();
-  console.log("Button clickec, bubbling stopped!");
+  console.log("Button clicked, bubbling stopped!");
 })
